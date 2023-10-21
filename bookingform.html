@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Tickets</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">   
+</head>
+<body style="background-image: url(Train2.jpeg);">
+    <form action="./message.html"> 
+    <div class="signup bg-dark">
+        <div class="signupheader bg-warning">
+            <h1>Reserve Your Tickects now</h1>
+        </div>
+        <div>
+            <fieldset><Legend class="text-white">Personal Details</Legend>
+            <select>
+                <option>Mr</option>
+                <option>Mrs</option>
+                <option>Ms</option>
+                </select>
+                <label class="text-white">&Name &nbsp;</label>
+                <input type="text" placeholder="Full Name" id="name" required><br>
+                <label class="text-white">Active Email id&nbsp;&nbsp;</label>
+                <input type="email" required placeholder="valid email id"><br>
+                <label for="mobile" class="text-white">Mobile Number</label>
+                <input type="text" id="mobile" placeholder="Valid mobile number" name="mobile" required>
+                </fieldset>
+        </div>
+        <div class="content1">
+            <fieldset><legend class="text-white">Choose Your Destination</legend>
+           <input type="radio" class="radio" name="r" required>
+            <label class="text-white">One Way</label>
+            <input type="radio" class="radio" name="r">
+            <label class="text-white" required>Return</label><br><br>
+            <input type="text" placeholder="From" class="fromto" required>
+            <input type="text" placeholder="To" class="fromto" required><br><br>
+            </fieldset>
+            <legend class="text-white">Number of Tickets</legend>
+            <input type="number" class="no.person" placeholder="Adults" required>
+            <input type="number" class="no.person" placeholder="Children" required>
+            <br><br>
+            <button><a href="index.html" style="text-decoration: none; color: black;" >Cancel</a></button>
+            <button>Book Tickets</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
